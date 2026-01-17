@@ -1,0 +1,16 @@
+# =========================
+# Configuração de build
+# =========================
+[build]
+  # Não precisa de build command, só HTML/JS/CSS
+  command = ""
+  # Diretório raiz do site (onde estão index.html e pasta admin/)
+  publish = "."
+
+# =========================
+# Redirects
+# =========================
+[[redirects]]
+  from = "/admin"
+  to = "/admin/dashboard.html"
+  status = 200
